@@ -1,0 +1,122 @@
+h1{
+    font-size: 40px;
+    text-align: center;
+    font-family: Lato, Verdana, Geneva, Georgia;
+    font-weight: 400;
+}
+
+h2{
+  font-size: 30px;
+  font-family: Lato, Geneva, Georgia, Roboto;
+  font-weight: 100;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #EDDBC7;
+
+}
+h3{
+  font-size: 20px;
+  text-align: center;
+  font-family: Lato, Geneva, Georgia, Roboto;
+  font-weight: 300;
+}
+
+body {
+  background-color: EDDBC7;
+}
+
+.p-about{
+  text-align: justify;
+  line-height: 25px;
+  font-family: Verdana, Tahoma, 'Courier New', monospace;
+  max-width: 600px;
+}
+
+img{
+  height: 200px;
+  border-radius: 50%;
+}
+
+.header{
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 25px;
+}
+
+ul.technical{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul.technical li {
+  position: relative;
+}
+
+ul.technical li:nth-of-type(1)::before{
+  content: url('images/html-5.png');
+  position: absolute;
+  left:1px;
+  top: 1px;
+  bottom: 1px;
+}
+
+ul.technical li:nth-of-type(2)::before{
+  content: url('images/css-3.png');
+  position: absolute;
+  left:2px;
+  top: 1px;
+  bottom: 1px;
+}
+
+ul.technical li:nth-of-type(3)::before{
+  content: url('images/java.png');
+  position: absolute;
+  left:2px;
+  top: 1px;
+  bottom: 1px;
+}
+
+ul.technical li:nth-of-type(4)::before{
+  content: url('images/python.png');
+  position: absolute;
+  left:2px;
+  top: 1px;
+  bottom: 1px;
+}
+
+ul.technical li:nth-of-type(5)::before{
+  content: url('images/sql-server.png');
+  position: absolute;
+  left:2px;
+  top: 1px;
+  bottom: 1px;
+}
+
+ul.experience{
+  list-style-image: url('images/check.png');
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 25px;
+
+}
+
+div.education{
+  max-width: 500px;
+}
+
+.p-educ{
+  font-size: 16px;
+  line-height: 17px;
+  border-bottom:1px;
+  margin-left: 1px;
+  margin-right: auto;
+  text-align:center;
+  width: 410px;
+  font-family: Verdana, Tahoma, 'Courier New', monospace;
+}
+
+ul.seminar{
+  list-style-image: url('images/computer-science.png');
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
